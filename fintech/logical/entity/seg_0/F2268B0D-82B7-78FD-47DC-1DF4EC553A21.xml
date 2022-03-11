@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2268B0D-82B7-78FD-47DC-1DF4EC553A21" name="DEPOSITADA_EN">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:06:25 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Saldo" id="16A23386-3257-0F06-64AF-BF1C087FBBC2">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:06:38 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IBAN" id="18D55AED-4B31-8FA0-C9D4-5438362F25CF">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:38:12 UTC</createdTime>
+<generatorID>44803C38-8E33-E313-3DB2-298BCC74E3CE</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<referedAttribute>2BB7C7A5-4549-27EE-F661-24D3BC854820</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IBAN1" id="802FB13D-A3E0-7956-E494-22A1B3F6785A">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:39:03 UTC</createdTime>
+<generatorID>03774D8D-3811-C127-0387-BF336AC1AFDB</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<referedAttribute>2BB7C7A5-4549-27EE-F661-24D3BC854820</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D92E68A-163F-9732-131C-CC5481BEB709" name="DEPOSITADA_EN PK">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:38:12 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18D55AED-4B31-8FA0-C9D4-5438362F25CF</attributeRef>
+<attributeRef>802FB13D-A3E0-7956-E494-22A1B3F6785A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

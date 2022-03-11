@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9338C2A9-D72B-6B0E-7D55-163A83CBC524" name="Autorización">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:13:29 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo" id="1E6FFDE7-50CE-95E5-A022-24A28C1F9A7F">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:13:40 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="C2631E56-1169-A305-9422-1DC056942D12">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:36:37 UTC</createdTime>
+<generatorID>EED485E8-0855-CFD2-9396-49B49376ACA4</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<referedAttribute>21EDC12D-6260-9454-2B9D-58D67416001C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="57C263E9-5C4B-A33F-C799-3416F8549C7C">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:36:57 UTC</createdTime>
+<generatorID>AB8FF4E7-3CCE-6D2B-97B8-8B4E53F03EAF</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<referedAttribute>6C5B1A42-CBDE-B92A-1E3D-63C6C5D4D42E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E578F782-93B5-C641-480C-B861DAB42D3F" name="Autorización PK">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-11 16:36:37 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2631E56-1169-A305-9422-1DC056942D12</attributeRef>
+<attributeRef>57C263E9-5C4B-A33F-C799-3416F8549C7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

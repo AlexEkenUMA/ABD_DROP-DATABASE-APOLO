@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="5E3C5C31-AE46-241F-8AE6-75393B88C241" mainViewID="0F343687-BAE3-743B-212F-BC1885631C48">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-10 10:49:06 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
