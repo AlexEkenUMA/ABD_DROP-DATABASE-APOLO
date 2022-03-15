@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC55445C-E16F-B914-AB08-314554A35532" name="OPERACION">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:39:18 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID " id="1B2A4ADA-4FCF-310A-0969-CBD15AF9D9F0">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 09:04:55 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Op" id="453566BE-037B-C051-26BB-0BC5C5449502">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:39:26 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Concepto" id="A4AA68F3-CC7A-6DF0-67E5-03857FB08737">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:41:17 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Emisor" id="FABEC8D7-30B1-08CB-B21C-210F317382C1">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:41:25 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Emisor" id="FFA74019-F65C-6D3E-3C71-569C6A488088">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:41:46 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="237EE585-5564-B237-CEE5-97DA79B3B41C">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:41:51 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Modo_Operacion" id="568E0B6E-02CC-2CBF-7E0E-E916065A8EFC">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:42:11 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nº DE TARJETA" id="C06F6E3B-8888-FF64-FFBC-210979D18E5E">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:58:19 UTC</createdTime>
+<generatorID>C42116BB-AA14-EE11-0326-F089F103C26E</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<referedAttribute>FBF0980B-3244-2B6D-C5CF-09F248708B04</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E792AAF-9AD7-F2C3-E5B2-33108DCDAD1B" name="OPERACION PK">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:58:19 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B2A4ADA-4FCF-310A-0969-CBD15AF9D9F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

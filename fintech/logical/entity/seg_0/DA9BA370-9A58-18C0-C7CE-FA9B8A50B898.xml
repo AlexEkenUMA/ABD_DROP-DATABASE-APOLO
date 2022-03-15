@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B328B69-A143-1705-A3AF-EDD05CF0B03A" name="CLIENTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA9BA370-9A58-18C0-C7CE-FA9B8A50B898" name="TARJETA">
 <createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:17 UTC</createdTime>
+<createdTime>2022-03-15 08:22:39 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
@@ -15,152 +15,141 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="6C5B1A42-CBDE-B92A-1E3D-63C6C5D4D42E">
+<Attribute name="Nº DE TARJETA" id="FBF0980B-3244-2B6D-C5CF-09F248708B04">
 <createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:23 UTC</createdTime>
+<createdTime>2022-03-15 08:23:15 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE PROPIETARIO" id="D435D8FF-39D8-D8D6-6F73-EB11BC8F54A6">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:23:47 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CADUCIDAD" id="4FA9D8BC-D1D2-D1ED-4C63-E527A53750CC">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:24:01 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CCV" id="F5C4FE04-D8A2-A931-E645-3A1F041539D3">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:24:12 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="F_ACTIVACION" id="45EB3693-245E-A5CE-00A5-67915196E39C">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:24:21 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="86041398-9041-F6BA-5A0A-72999BF40D5B">
+<createdBy>aleja</createdBy>
+<createdTime>2022-03-15 08:51:57 UTC</createdTime>
+<generatorID>3DAE8195-E521-CA92-0F99-71F604C2AAA5</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<engineerTo>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+</engineerTo>
+<referedAttribute>6C5B1A42-CBDE-B92A-1E3D-63C6C5D4D42E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Identificacion" id="6C2E3A66-A541-535B-511A-234F56AB0BDC">
+<Attribute name="Modo_Por_Defecto" id="A6D58268-9D70-2CE8-9C50-EE2230FEF0A5">
 <createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:26 UTC</createdTime>
-<ownerDesignName>fintech</ownerDesignName>
-<engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tipo_cliente" id="4965E6A6-1AF6-0F02-F812-A14BA8275DCC">
-<createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:31 UTC</createdTime>
-<ownerDesignName>fintech</ownerDesignName>
-<engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="estado" id="C4311A43-422E-C159-4E21-4368AD6B1FEB">
-<createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:37 UTC</createdTime>
-<ownerDesignName>fintech</ownerDesignName>
-<engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Fecha_Alta" id="2DDD9D54-2784-EDEE-C656-BB7868D83112">
-<createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:40 UTC</createdTime>
-<ownerDesignName>fintech</ownerDesignName>
-<engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Fecha_Baja" id="9C3A0032-B476-A9D9-F9D5-642ADB1405A7">
-<createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:44 UTC</createdTime>
+<createdTime>2022-03-15 09:02:01 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Direccion" id="AC6EC543-2824-FE5F-1FFB-7708F9A174FE">
+<Attribute name="IBAN" id="6D04104B-AA4D-BFB1-FB8E-B8BC1A9B1DCD">
 <createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:49 UTC</createdTime>
+<createdTime>2022-03-15 09:05:24 UTC</createdTime>
+<generatorID>9305E41A-E179-5FAB-A226-1563F9DE88E5</generatorID>
 <ownerDesignName>fintech</ownerDesignName>
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
+<referedAttribute>2BB7C7A5-4549-27EE-F661-24D3BC854820</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ciudad" id="4C87CBFF-3491-18AD-B16F-E43E59F1771A">
+<Attribute name="Limite_Fisicos" id="577C2BAB-6C62-B349-6B0B-60F6636EBAD9">
 <createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:53 UTC</createdTime>
+<createdTime>2022-03-15 09:10:17 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodigoPostal" id="A2E00373-94B2-B5C8-04B8-E25B5193D4A6">
+<Attribute name="Limite_Online" id="DBD903DF-78D9-6373-5ADB-3DC3E0C8BEA3">
 <createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:09:55 UTC</createdTime>
+<createdTime>2022-03-15 09:10:25 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Pais" id="08F11B78-31DD-E188-30F0-A2F4831063F0">
+<Attribute name="Limite_Cajero" id="B9F17ABD-B0E6-12F7-6BA2-8C221EE0E4FC">
 <createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:10:00 UTC</createdTime>
+<createdTime>2022-03-15 09:10:40 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4E88626D-7F97-2576-BCB3-ABB73A2B6A4F" name="CLIENTE PK">
+<identifier id="E72A7C01-FDC4-5DF0-3F30-72F65FE08A85" name="TARJETA PK">
 <createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:10:47 UTC</createdTime>
+<createdTime>2022-03-15 08:23:22 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6C5B1A42-CBDE-B92A-1E3D-63C6C5D4D42E</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="0CA22235-EF8A-5F35-0C62-705EDE4E185A" name="Key_2">
-<createdBy>aleja</createdBy>
-<createdTime>2022-03-11 16:10:54 UTC</createdTime>
-<ownerDesignName>fintech</ownerDesignName>
-<engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
-</engineerTo>
-<newElementsIDs>6C2E3A66-A541-535B-511A-234F56AB0BDC</newElementsIDs>
-<usedAttributes>
-<attributeRef>6C2E3A66-A541-535B-511A-234F56AB0BDC</attributeRef>
+<attributeRef>FBF0980B-3244-2B6D-C5CF-09F248708B04</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

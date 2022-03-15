@@ -116,7 +116,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>34 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>34 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IBAN1" id="E166763C-F05B-4853-74BF-37F1E9674B7B">
 <createdBy>aleja</createdBy>
@@ -131,7 +131,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>34 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>34 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="abreviatura" id="2351C09A-3297-7736-6279-99CA934BBB92">
 <createdBy>aleja</createdBy>
@@ -146,7 +146,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="abreviatura1" id="4CB16B06-A0A4-E82D-2208-4E40BB7FC2EF">
 <createdBy>aleja</createdBy>
@@ -161,7 +161,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
