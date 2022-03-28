@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="342039FE-E081-2CA0-252C-253058DD0C1F" name="TRANSACCION">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>5F852765-2228-6B34-2FFF-ED763762421D</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Único" id="1CA8AAC5-30D5-7122-489A-6E2B227C3A48">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>191F588E-0117-667F-68B2-F256FFDBA17A</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaInstrucción" id="4121619D-7B36-6C12-A276-ECE1B8983F91">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>0982B427-63A8-AA2E-D22B-117FD56735DC</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="C09288D6-903B-518F-BB82-D860DFA92E4F">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>3298EDD8-B29D-B32C-8CAD-E5028CFCDA3A</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaEjecución" id="C4DBA1D3-AEBE-8960-6F75-5A7DD7292F6A">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>FA86DF70-52E5-0482-FE6F-0D9CA71407AF</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="AB4E0D55-0CDC-771A-E5EF-73F84221C6D7">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>8C244062-316B-CCF0-B7CF-9DC0DDC3F5E3</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comision" id="9CDC5023-89AB-760C-6DE2-389833641BE9">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>8568A075-2C83-10EF-EF25-C2878C059A11</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Internacional" id="A0736ED7-05F5-D394-B2A1-F891E2896548">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>AB17521F-F911-4D14-00D6-409C83DF41E1</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUENTA_IBAN" id="0FD2B717-2F09-B98C-5251-5AAAEA971E15">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>7C5BFD6D-431A-129D-D2EA-9213CDF56B9C</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B3FBAB2-554A-CA9E-922F-E0C2DB2D306B" referredColumn="329FE603-6600-D25A-5370-3A9B64730B24"/>
+</associations>
+</Column>
+<Column name="CUENTA_IBAN2" id="5CFFD38A-CCF8-CA08-D8E3-289CFE7253EC">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>E166763C-F05B-4853-74BF-37F1E9674B7B</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A1D1BCB-865F-F58F-85C3-250BB5F64317" referredColumn="329FE603-6600-D25A-5370-3A9B64730B24"/>
+</associations>
+</Column>
+<Column name="DIVISA_abreviatura2" id="23864CCC-612A-1189-4D5F-10E4AFEBEE77">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>2351C09A-3297-7736-6279-99CA934BBB92</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E5FAC1A-CD9A-2156-5314-E5037BADF86A" referredColumn="82F84205-B1C0-2EC8-0FB4-2324817D6781"/>
+</associations>
+</Column>
+<Column name="DIVISA_abreviatura" id="A638DDE9-C7EB-20D4-A53D-5317E6B283DF">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>4CB16B06-A0A4-E82D-2208-4E40BB7FC2EF</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02DC5192-D6D1-0A41-E617-B54899AAED68" referredColumn="82F84205-B1C0-2EC8-0FB4-2324817D6781"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CA655D5-D88C-194C-2AAB-CCE9D237F784" name="TRANSACCION_PK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>DC5A6EB8-040A-96A9-0756-7976B4BDA3AA</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CA8AAC5-30D5-7122-489A-6E2B227C3A48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EB0BE49-D378-2E4D-6075-43D51D0D12AA" name="TRANSACCION_DIVISA_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>A8AF58C4-5E1D-94C7-1D84-69EDFD6EE367</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A638DDE9-C7EB-20D4-A53D-5317E6B283DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78A8E564-8400-6D54-ACFE-0768B5B24821" name="TRANSACCION_CUENTA_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>C3A208B2-8483-ED95-A169-50BB7A4941A1</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FD2B717-2F09-B98C-5251-5AAAEA971E15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBFAEB28-13F6-3B43-13EB-CC3D3D401426" name="TRANSACCION_CUENTA_FKv2">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>DB32F578-238E-F4A7-3CC6-98164A9ABF76</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CFFD38A-CCF8-CA08-D8E3-289CFE7253EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADE52787-00EE-F469-AA77-663BF3572F38" name="TRANSACCION_DIVISA_FKv2">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>B1C927B3-EE0B-9F0E-C1DE-F490E4BDF01E</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23864CCC-612A-1189-4D5F-10E4AFEBEE77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

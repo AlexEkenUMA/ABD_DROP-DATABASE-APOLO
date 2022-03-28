@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D44E9597-DDE8-FA5A-F7D4-FBCD5D1F66F7" name="SEGREGADA">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>B1AB856D-F8DB-B25E-6860-7C14E8C64302</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IBAN" id="55F107C4-9629-6871-BCE5-3C3036B54DCD">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>2BB7C7A5-4549-27EE-F661-24D3BC854820</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4A99EF7-61AF-28E2-E21D-5A12602B09D4" referredColumn="AAC42603-589A-EBA4-7F6F-019F11506DD8"/>
+</associations>
+</Column>
+<Column name="comision" id="843F4D3B-C3DA-4FBD-995A-F65EB9E15E3E">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>A6A72B06-31B6-21CB-9585-1C2D98167C4D</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24411E86-8342-1383-9CC4-B95C0286CF1C" name="SEGREGADA_PK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>5D4FF605-159D-2F88-EB2B-3FE7BC30C268</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55F107C4-9629-6871-BCE5-3C3036B54DCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC11989F-C2EA-D787-4779-71E26640D2B8" name="SEGREGADA_FINTECH_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>1E819E80-3FA7-77B8-0294-380C3DD0C544</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55F107C4-9629-6871-BCE5-3C3036B54DCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5724F6E6-018D-E12D-E716-C21D0E41C424" name="REFERENCIA">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>7EABF209-4835-3301-BE12-42C3B70452C4</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IBAN" id="F86FFFF4-5BB3-56DC-853B-065C30A01E5A">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>2BB7C7A5-4549-27EE-F661-24D3BC854820</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A22BB2A7-98AA-92AE-04CD-4AC44F439748" referredColumn="329FE603-6600-D25A-5370-3A9B64730B24"/>
+</associations>
+</Column>
+<Column name="NombreBanco" id="8C357DCC-E89F-4F1A-46B4-142B5ACBAFE5">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>BACFFBDA-766D-38FB-19DC-D42B85266684</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursal" id="69968A25-00DF-31C8-8D0E-C9E6BDCA21F3">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>905E064B-7979-7708-CE4F-4151309F74DE</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais" id="E1783126-3441-792C-41AA-4614889E71A0">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>7C1DDC85-60DC-6EFF-A83D-C5663259380E</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Saldo" id="0D0729A8-2A1B-5A4E-5F2A-B19198537242">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>1F18EA04-AF28-34D4-DA8D-E48E0E8DCA99</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_apertura" id="25A1442A-6FCF-49C3-EF07-E4F8F456CACA">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>9C1F8557-1A1A-3B37-4C7D-C528C506C06F</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="02DC2367-37A1-8BA0-268D-FAC8115C4D2A">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>DE769A5F-D7B6-9F2F-96EA-9EB2404A44A4</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIVISA_abreviatura" id="3E111B94-523C-D3E9-1E7D-E7E384DC1213">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>1E54838D-2D55-C148-2D70-7E532FC7C9BE</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D64A777F-9908-FE17-F9D4-8BBC83D9E993" referredColumn="82F84205-B1C0-2EC8-0FB4-2324817D6781"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB4FA8E5-72D7-D750-918B-1B219445A87D" name="REFERENCIA_PK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>5D4FF605-159D-2F88-EB2B-3FE7BC30C268</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F86FFFF4-5BB3-56DC-853B-065C30A01E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB0BB8C5-D766-903E-F76C-FDBACAD09DCF" name="REFERENCIA_CUENTA_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>2686E5EC-C136-FD53-B7E9-DCF13C323B22</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F86FFFF4-5BB3-56DC-853B-065C30A01E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23D95A56-06FE-F3D4-AC61-A1C910DF7F01" name="REFERENCIA_DIVISA_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>5255D8AF-C941-96C9-FFB5-1734907E854E</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E111B94-523C-D3E9-1E7D-E7E384DC1213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

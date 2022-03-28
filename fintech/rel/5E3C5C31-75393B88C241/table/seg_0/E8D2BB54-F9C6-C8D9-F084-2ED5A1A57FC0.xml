@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8D2BB54-F9C6-C8D9-F084-2ED5A1A57FC0" name="CUENTA">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>C59AD515-77D6-C792-52B4-667D8EA5E9C0</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IBAN" id="329FE603-6600-D25A-5370-3A9B64730B24">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>2BB7C7A5-4549-27EE-F661-24D3BC854820</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>34 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SWIFT" id="4D56BA09-69CA-209A-888D-6852115A641C">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>DC9F5725-9A83-774A-0996-ADEA39A7D7EB</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F294ACCA-D2E3-9EB8-0F97-215E6E1DC4FC" name="CUENTA_PK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>5D4FF605-159D-2F88-EB2B-3FE7BC30C268</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="329FE603-6600-D25A-5370-3A9B64730B24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

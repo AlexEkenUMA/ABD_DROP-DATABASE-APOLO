@@ -74,7 +74,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="comision" id="8568A075-2C83-10EF-EF25-C2878C059A11">
 <createdBy>aleja</createdBy>
@@ -169,8 +170,9 @@
 <createdBy>aleja</createdBy>
 <createdTime>2022-03-11 16:17:29 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

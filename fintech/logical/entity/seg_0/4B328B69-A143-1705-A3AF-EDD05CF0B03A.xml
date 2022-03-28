@@ -37,7 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tipo_cliente" id="4965E6A6-1AF6-0F02-F812-A14BA8275DCC">
 <createdBy>aleja</createdBy>
@@ -49,7 +50,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estado" id="C4311A43-422E-C159-4E21-4368AD6B1FEB">
 <createdBy>aleja</createdBy>
@@ -61,7 +63,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Fecha_Alta" id="2DDD9D54-2784-EDEE-C656-BB7868D83112">
 <createdBy>aleja</createdBy>
@@ -98,7 +101,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Ciudad" id="4C87CBFF-3491-18AD-B16F-E43E59F1771A">
 <createdBy>aleja</createdBy>
@@ -110,7 +114,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CodigoPostal" id="A2E00373-94B2-B5C8-04B8-E25B5193D4A6">
 <createdBy>aleja</createdBy>
@@ -143,8 +148,9 @@
 <createdBy>aleja</createdBy>
 <createdTime>2022-03-11 16:10:47 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -155,8 +161,9 @@
 <createdBy>aleja</createdBy>
 <createdTime>2022-03-11 16:10:54 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="false"/>
 </engineerTo>
 <newElementsIDs>6C2E3A66-A541-535B-511A-234F56AB0BDC</newElementsIDs>
 <usedAttributes>

@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID" id="C2631E56-1169-A305-9422-1DC056942D12">
 <createdBy>aleja</createdBy>
@@ -61,8 +62,9 @@
 <createdBy>aleja</createdBy>
 <createdTime>2022-03-11 16:36:37 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

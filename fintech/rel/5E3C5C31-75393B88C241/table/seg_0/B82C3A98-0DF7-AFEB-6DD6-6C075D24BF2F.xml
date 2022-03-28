@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B82C3A98-0DF7-AFEB-6DD6-6C075D24BF2F" name="Autorización">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>9338C2A9-D72B-6B0E-7D55-163A83CBC524</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<ordsAlias>autorizacion</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo" id="E9F1AB66-6DD2-DEB3-0F2C-4B590E06BA6C">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>1E6FFDE7-50CE-95E5-A022-24A28C1F9A7F</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_AUTORIZADA_ID" id="AF4BD0F5-5896-0B93-89D4-F672D1D7B68E">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>C2631E56-1169-A305-9422-1DC056942D12</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2789887-1B68-FE9F-B947-20482BA28442" referredColumn="AA2FD0A0-13F1-9CED-4A22-732D149C4809"/>
+</associations>
+</Column>
+<Column name="EMPRESA_ID" id="F7E852E8-84AA-4888-9FB6-EE1B5B0D485A">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>57C263E9-5C4B-A33F-C799-3416F8549C7C</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CE774DD-FECE-6E3D-D83E-9DDFEB38CC1E" referredColumn="26E9B0B3-559E-5C59-7B83-C12DA375DC26"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="968C3066-AE04-517E-401D-A6FBA29FB1B8" name="Autorización_PK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>E578F782-93B5-C641-480C-B861DAB42D3F</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF4BD0F5-5896-0B93-89D4-F672D1D7B68E"/>
+<colUsage columnID="F7E852E8-84AA-4888-9FB6-EE1B5B0D485A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3CA66D5-607F-945D-5DA9-FC249F18127F" name="Aut_PERSONA_AUTORIZADA_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>EED485E8-0855-CFD2-9396-49B49376ACA4</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF4BD0F5-5896-0B93-89D4-F672D1D7B68E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="215908DE-C82D-CE26-0298-9A63FD088787" name="Aut_EMPRESA_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>AB8FF4E7-3CCE-6D2B-97B8-8B4E53F03EAF</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7E852E8-84AA-4888-9FB6-EE1B5B0D485A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="8B0A1E74-37CA-4B50-807E-AF90D86A938A" name="FKArc_2">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>9912D49B-BD13-4717-9E3B-37E316D3C65D</table>
+<discriminatorColumn>AAC42603-589A-EBA4-7F6F-019F11506DD8</discriminatorColumn>
+<fkeys>
+<fkeyID>F4A99EF7-61AF-28E2-E21D-5A12602B09D4</fkeyID>
+<fkeyID>EE570B92-F6D9-DDDD-E4A8-312796CD1F7C</fkeyID>
+</fkeys>
+</FKArc>

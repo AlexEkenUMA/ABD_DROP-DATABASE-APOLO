@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5D436B9-38A8-9DEE-9A85-F8CF4629C723" containerWithKeyObject="0A4C0E99-EBC0-6222-61BB-4CC07D499F7E" localFKIndex="82BDEC1C-B65C-998F-641E-FAFF2BB325C2" name="Relation_18_OPERACION_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>F33770AE-F489-C111-814C-EF6280066C7B</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<referredTableLongName>OPERACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76FE57EA-B36E-2153-E0AF-6D5C059B5C9A</referredTableID>
+<keyObject>76C1D803-2B11-42AB-2EBC-949A4C3371C7</keyObject>
+<referredKeyID>76C1D803-2B11-42AB-2EBC-949A4C3371C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>21CCC5D0-2313-4E8A-5D52-955F186C2A58</discriminatorColumn>
+<discriminatorValue>ID</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="503C2E80-EB77-7FD3-A2CE-4D8044AE5C96" name="POOLED_ACCOUNT">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>F76A13D3-C7FA-8679-5287-C4C0CED13713</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IBAN" id="3EED22CC-5EB4-08C8-31C5-7EBA969A930A">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>2BB7C7A5-4549-27EE-F661-24D3BC854820</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE570B92-F6D9-DDDD-E4A8-312796CD1F7C" referredColumn="AAC42603-589A-EBA4-7F6F-019F11506DD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B779E06D-EF13-3D3A-09BD-3EC66AA08034" name="POOLED_ACCOUNT_PK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>5D4FF605-159D-2F88-EB2B-3FE7BC30C268</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EED22CC-5EB4-08C8-31C5-7EBA969A930A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20AAC1CE-5F4F-850A-6D24-4087E51CCCCB" name="POOLED_ACCOUNT_FINTECH_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>3DBDF4B9-E77D-ABC6-E834-E04554210F7B</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EED22CC-5EB4-08C8-31C5-7EBA969A930A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

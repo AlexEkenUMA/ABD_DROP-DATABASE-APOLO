@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BECA4370-7DF4-FFA0-D7BB-3A41B3193451" name="DEPOSITADA_EN">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>F2268B0D-82B7-78FD-47DC-1DF4EC553A21</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Saldo" id="1DF6FA43-C643-5C01-E7D2-60340F2572BE">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>16A23386-3257-0F06-64AF-BF1C087FBBC2</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POOLED_ACCOUNT_IBAN" id="2E1D5C6A-AB69-675F-8757-4054CB15CC47">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>18D55AED-4B31-8FA0-C9D4-5438362F25CF</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0C0DAA9-E7AD-3F40-8575-1370096820BF" referredColumn="3EED22CC-5EB4-08C8-31C5-7EBA969A930A"/>
+</associations>
+</Column>
+<Column name="REFERENCIA_IBAN" id="27FA783C-DB43-4577-214F-0C39E25CA671">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>802FB13D-A3E0-7956-E494-22A1B3F6785A</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C009A451-A1E5-5CDD-7197-DCD0E75376AD" referredColumn="F86FFFF4-5BB3-56DC-853B-065C30A01E5A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7FD9EC5-AD9C-64A0-DD55-81F13D1A78A0" name="DEPOSITADA_EN_PK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>0D92E68A-163F-9732-131C-CC5481BEB709</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E1D5C6A-AB69-675F-8757-4054CB15CC47"/>
+<colUsage columnID="27FA783C-DB43-4577-214F-0C39E25CA671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDBDA969-E163-F484-681A-2A2235B9A0B6" name="DEP_EN_POOLED_ACCOUNT_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>44803C38-8E33-E313-3DB2-298BCC74E3CE</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E1D5C6A-AB69-675F-8757-4054CB15CC47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="693E0079-DDE0-65B8-91BF-9CB0FC42FA9A" name="DEP_EN_REFERENCIA_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>03774D8D-3811-C127-0387-BF336AC1AFDB</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27FA783C-DB43-4577-214F-0C39E25CA671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

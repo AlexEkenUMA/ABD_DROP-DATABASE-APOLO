@@ -37,7 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="5C8A74FB-687C-C2BF-07B1-093C7FD9B20A">
 <createdBy>aleja</createdBy>
@@ -75,7 +76,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_nacimiento" id="E761DF2D-290C-2D8E-69B8-39CD7C74A025">
 <createdBy>aleja</createdBy>
@@ -136,8 +138,9 @@
 <createdBy>aleja</createdBy>
 <createdTime>2022-03-11 16:14:01 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -148,8 +151,9 @@
 <createdBy>aleja</createdBy>
 <createdTime>2022-03-11 16:16:14 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="false"/>
 </engineerTo>
 <newElementsIDs>6B96F3C0-394B-E48E-0FFC-FACA1BACED1E</newElementsIDs>
 <usedAttributes>

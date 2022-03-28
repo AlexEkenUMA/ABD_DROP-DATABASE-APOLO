@@ -52,7 +52,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CambioEuro" id="5916ADEC-A399-17DD-2FC8-CC61807FEB2B">
 <createdBy>aleja</createdBy>
@@ -72,8 +73,9 @@
 <createdBy>aleja</createdBy>
 <createdTime>2022-03-11 16:07:08 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

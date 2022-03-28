@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Fecha_Op" id="453566BE-037B-C051-26BB-0BC5C5449502">
 <createdBy>aleja</createdBy>
@@ -32,7 +35,9 @@
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Concepto" id="A4AA68F3-CC7A-6DF0-67E5-03857FB08737">
@@ -43,8 +48,11 @@
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nombre_Emisor" id="FABEC8D7-30B1-08CB-B21C-210F317382C1">
 <createdBy>aleja</createdBy>
@@ -54,8 +62,11 @@
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Tipo_Emisor" id="FFA74019-F65C-6D3E-3C71-569C6A488088">
 <createdBy>aleja</createdBy>
@@ -65,8 +76,11 @@
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Cantidad" id="237EE585-5564-B237-CEE5-97DA79B3B41C">
 <createdBy>aleja</createdBy>
@@ -75,7 +89,9 @@
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Modo_Operacion" id="568E0B6E-02CC-2CBF-7E0E-E916065A8EFC">
@@ -86,8 +102,11 @@
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nº DE TARJETA" id="C06F6E3B-8888-FF64-FFBC-210979D18E5E">
 <createdBy>aleja</createdBy>
@@ -98,7 +117,10 @@
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <referedAttribute>FBF0980B-3244-2B6D-C5CF-09F248708B04</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -107,8 +129,9 @@
 <createdBy>aleja</createdBy>
 <createdTime>2022-03-15 08:58:19 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NOMBRE PROPIETARIO" id="D435D8FF-39D8-D8D6-6F73-EB11BC8F54A6">
 <createdBy>aleja</createdBy>
@@ -32,8 +35,11 @@
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CADUCIDAD" id="4FA9D8BC-D1D2-D1ED-4C63-E527A53750CC">
 <createdBy>aleja</createdBy>
@@ -42,7 +48,9 @@
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CCV" id="F5C4FE04-D8A2-A931-E645-3A1F041539D3">
@@ -52,7 +60,9 @@
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="F_ACTIVACION" id="45EB3693-245E-A5CE-00A5-67915196E39C">
@@ -62,7 +72,9 @@
 <engineerTo>
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID" id="86041398-9041-F6BA-5A0A-72999BF40D5B">
@@ -87,8 +99,11 @@
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IBAN" id="6D04104B-AA4D-BFB1-FB8E-B8BC1A9B1DCD">
 <createdBy>aleja</createdBy>
@@ -103,7 +118,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>34 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>34 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Limite_Fisicos" id="577C2BAB-6C62-B349-6B0B-60F6636EBAD9">
 <createdBy>aleja</createdBy>
@@ -113,7 +128,9 @@
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Limite_Online" id="DBD903DF-78D9-6373-5ADB-3DC3E0C8BEA3">
@@ -124,7 +141,9 @@
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Limite_Cajero" id="B9F17ABD-B0E6-12F7-6BA2-8C221EE0E4FC">
@@ -135,7 +154,9 @@
 <item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -144,8 +165,9 @@
 <createdBy>aleja</createdBy>
 <createdTime>2022-03-15 08:23:22 UTC</createdTime>
 <ownerDesignName>fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="true"/>
+<item key="5E3C5C31-AE46-241F-8AE6-75393B88C241" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

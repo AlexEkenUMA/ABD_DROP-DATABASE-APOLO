@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="458D2690-BF6F-0048-D1D9-0F87847E0106" containerWithKeyObject="76FE57EA-B36E-2153-E0AF-6D5C059B5C9A" localFKIndex="84963210-E63D-FBCB-99D6-B1CB7E6A5232" name="OPERACION_TARJETA_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>C42116BB-AA14-EE11-0326-F089F103C26E</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<referredTableLongName>TARJETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4C92790-E7B6-29EC-7321-03FE93E2D710</referredTableID>
+<keyObject>F272E082-75AC-8F4C-387E-C0F604D42DE8</keyObject>
+<referredKeyID>F272E082-75AC-8F4C-387E-C0F604D42DE8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nº_DE_TARJETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>ED12C689-88B4-9FA5-D49C-F1D831A50D9B</discriminatorColumn>
+<discriminatorValue>Nº de tarjeta</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A4C0E99-EBC0-6222-61BB-4CC07D499F7E" name="Relation_18">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OPERACION_ID" id="A6BD602D-4435-5771-7266-5BDAB9B77B38">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5D436B9-38A8-9DEE-9A85-F8CF4629C723" referredColumn="21CCC5D0-2313-4E8A-5D52-955F186C2A58"/>
+</associations>
+</Column>
+<Column name="DIVISA_abreviatura" id="311B889D-A4C4-AF18-13FD-29F06F6A9A7B">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42B7C00C-2808-E599-DE85-587788216005" referredColumn="82F84205-B1C0-2EC8-0FB4-2324817D6781"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21C65B6B-3AEA-939C-EEA8-49BBBEA3D141" name="Relation_18_PK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<ownerDesignName>fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6BD602D-4435-5771-7266-5BDAB9B77B38"/>
+<colUsage columnID="311B889D-A4C4-AF18-13FD-29F06F6A9A7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82BDEC1C-B65C-998F-641E-FAFF2BB325C2" name="Relation_18_OPERACION_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>F33770AE-F489-C111-814C-EF6280066C7B</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6BD602D-4435-5771-7266-5BDAB9B77B38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEDCFEF0-0C71-3614-B733-FA082BDCF9C3" name="Relation_18_DIVISA_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>F33770AE-F489-C111-814C-EF6280066C7B</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="311B889D-A4C4-AF18-13FD-29F06F6A9A7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

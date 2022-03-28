@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58097B9F-169A-CE28-996A-7DC9BEDF5810" name="EMPRESA">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>0AC1E566-4767-3674-6E10-160BCEFDC3E7</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="26E9B0B3-559E-5C59-7B83-C12DA375DC26">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>6C5B1A42-CBDE-B92A-1E3D-63C6C5D4D42E</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0837CB77-9DC1-BB1E-CD48-A9F419010632" referredColumn="3A75C1DB-F6AF-20CD-EE48-DB8C93CE7BDD"/>
+</associations>
+</Column>
+<Column name="Razon_Social" id="9A20A376-5F63-3A96-9AD1-1695E2CCBE85">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>848C8215-7187-EB3C-017E-75011C5FD5F8</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63350BF6-845E-213E-A028-1D82842C6B77" name="EMPRESA_PK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>4E88626D-7F97-2576-BCB3-ABB73A2B6A4F</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26E9B0B3-559E-5C59-7B83-C12DA375DC26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88037079-B5E4-5832-8B17-3A73D72D1354" name="EMPRESA_CLIENTE_FK">
+<createdBy>josem</createdBy>
+<createdTime>2022-03-28 13:04:37 UTC</createdTime>
+<generatorID>A98C88CC-2F25-A686-C932-4E9ABB92B5D9</generatorID>
+<ownerDesignName>fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26E9B0B3-559E-5C59-7B83-C12DA375DC26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
