@@ -1,4 +1,4 @@
-create table cotizacion_ext (Nombre NVARCHAR2(50), Fecha NVARCHAR2(50), Valor1Euro NVARCHAR2(50), VariacionPorc NVARCHAR2(50), VariacionMes NVARCHAR2(50), VariacionAÒo NVARCHAR2(50), ValorenEuros NVARCHAR2(50))
+create table cotizacion_ext (Nombre NVARCHAR2(50), Fecha NVARCHAR2(50), Valor1Euro NVARCHAR2(50), VariacionPorc NVARCHAR2(50), VariacionMes NVARCHAR2(50), VariacionA√±o NVARCHAR2(50), ValorenEuros NVARCHAR2(50))
     organization external
     ( default directory directorio_ext access parameters
          ( records delimited by newline  
@@ -30,7 +30,7 @@ from cotizacion_ext c join divisa d on c.nombre = d.nombre
 where (d.nombre,to_date (fecha,'dd/mm/yyyy')) in (select nombre, max ( to_date 
 (fecha,'dd/mm/yyyy')) from cotizacion_ext group by nombre);
 
---6. ÕNDICES
+--6. √çNDICES
 
 select * from user_indexes;
 
@@ -45,7 +45,7 @@ create index upper_identificacion_idx on cliente (upper(IDENTIFICACION))
 
 --La clave primaria de cliente es ID
 
---Cliente se almacena en la tablespace TS_FINTECH y los Ìndices en TS_INDICES
+--Cliente se almacena en la tablespace TS_FINTECH y los √≠ndices en TS_INDICES
 SELECT TABLE_NAME, TABLESPACE_NAME FROM USER_TABLES WHERE TABLE_NAME='CLIENTE';
 SELECT TABLE_NAME, TABLESPACE_NAME FROM USER_INDEXES;
 SELECT TABLE_NAME, TABLESPACE_NAME FROM USER_INDEXES WHERE TABLE_NAME='CLIENTE';
@@ -63,7 +63,7 @@ select nombre, valor1euro, valoreneuros from cotizacion_ext;
 
 select * from VM_COTIZA;
 
---7. SIN”NIMOS
+--7. SIN√ìNIMOS
 
 --CRAR SINONIMO PUBLICO
 create public synonym cotizacion for VM_COTIZA;
