@@ -1,9 +1,9 @@
 --MIEMBROS DEL GRUPO
---ALEJANDRO REQUENA GARCÕA
---MIQUEL MARTÕNEZ L”PEZ
---JOSE MARÕA PAN ROSADO
---ISMAEL GARCÕA ZAMUDIO
---1. CREACI”N DEL USUARIO Y TABLESPACE
+--ALEJANDRO REQUENA GARC√çA
+--MIQUEL MART√çNEZ L√ìPEZ
+--JOSE MAR√çA PAN ROSADO
+--ISMAEL GARC√çA ZAMUDIO
+--1. CREACI√ìN DEL USUARIO Y TABLESPACE
 --CREAMOS TABLESPACE TS_FINTECH
 create tablespace TS_FINTECH datafile 'fintech.dbf' size 10M autoextend on;
 
@@ -28,23 +28,23 @@ select username, default_tablespace from dba_users where username='FINTECH';
 --VER DATAFILES ASOCIADOS A LOS TABLESPACES TS_FINTECH Y TS_INDICES
 select * from DBA_data_files where tablespace_name ='TS_FINTECH' or tablespace_name ='TS_INDICES';
 
---2. CREACI”N DEL ESQUEMA
+--2. CREACI√ìN DEL ESQUEMA
 --HECHO
 
---3. IMPORTACI”N DE DATOS 
+--3. IMPORTACI√ìN DE DATOS 
 --HECHO
 
 --4. TABLAS EXTERNAS
 create or replace directory directorio_ext as 'C:\Users\app\alumnos\admin\orcl\dpdump';
 grant write, read on directory directorio_ext to fintech;
 
---5. ÕNDICES
+--5. √çNDICES
 --HECHO EN EL USUARIO FINTECH
 
 --6. VISTA MATERIALIZADA
 --HECHO EN EL USUARIO FINTECH
 
---7. SIN”NIMOS
+--7. SIN√ìNIMOS
 --HECHO DESDE EL USUARIO FINTECH
 
 
